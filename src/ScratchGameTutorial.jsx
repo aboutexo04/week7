@@ -33,7 +33,7 @@ const steps = [
   },
   {
     title: "Step 5: Detect Collision",
-    description: "Check how the car sprite uses 'if touching Obstacle' blocks to detect collisions.",
+    description: "Check how the car sprite uses 'if touching Obstacle' blocks to detect collisions. Don't forget to to put the right codes into the forever loop on the left.",
     image: "images/step5.png"
   },
   {
