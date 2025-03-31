@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 
 const steps = [
@@ -9,17 +8,18 @@ const steps = [
   },
   {
     title: "Seating Chart",
-    description: "Please check your seat and make sure you're in the right place. We'll start soon! Password is 'a1234a'",
+    description: "Please check your seat and make sure you're in the right place. Password is 'a1234a'",
     image: "images/seating-chart.png"
   },
   {
     title: "Step 1: Open Scratch",
-    description: "Please share the start file I providedat the studio Week4.",
+    description: "Please share the start file I provided at the studio Week4.",
     image: "images/step1.png"
   },
   {
-    title: "Step 2: Check the Assets",
-    description: "All sprites and backdrops are provided. Today's backdrop is 'white road' and two sprites are 'car' and 'obstacle'." 
+    title: "Step 2: Check the Project Assets",
+    description: "All sprites and backdrops are provided. Today's backdrop is 'white road' and two sprites are 'car' and 'obstacle'.",
+    image: "images/step2.png"
   },
   {
     title: "Step 3: Understand the Car Sprite",
@@ -61,34 +61,16 @@ export default function ScratchGameTutorial() {
         <h2 style={styles.title}>{step.title}</h2>
         <p style={styles.description}>{step.description}</p>
         {step.image && (
-          <div style={{ marginBottom: '1.5rem' }}>
-       {step.image && (
-  <div style={styles.imageWrapper}>
-    {step.image && (
-  <div style={{ marginBottom: '1.5rem' }}>
-   {step.image && (
-  <div style={{ marginBottom: '1.5rem' }}>
-    {step.image && (
-  <div style={{ marginBottom: '1.5rem' }}>
-    <img
-      src={`${import.meta.env.BASE_URL}${step.image}`}
-      alt={step.title}
-      style={{
-        width: "100%",
-        height: "auto",
-        display: "block",
-        borderRadius: "16px",
-        border: "2px solid #90caf9"
-      }}
-    />
-  </div>
-)}
-  </div>
-)}
-  </div>
-)}
-  </div>
-)}
+          <div style={{ marginBottom: "1.5rem" }}>
+            <img
+              src={`${import.meta.env.BASE_URL}${step.image}`}
+              alt={step.title}
+              style={{
+                width: "100%",
+                borderRadius: "16px",
+                border: "2px solid #90caf9"
+              }}
+            />
           </div>
         )}
         <div style={styles.buttonRow}>
@@ -171,19 +153,5 @@ const styles = {
   disabledButton: {
     backgroundColor: "#bbdefb",
     cursor: "not-allowed"
-  },
-  imageWrapper: {
-    width: "100%",
-    maxHeight: "300px",
-    overflow: "hidden",
-    borderRadius: "16px",
-    border: "2px solid #90caf9",
-    marginBottom: "1.5rem"
-  },
-  image: {
-    width: "100%",
-    height: "100%",
-    objectFit: "contain",
-    display: "block"
   }
 };
