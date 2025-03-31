@@ -64,11 +64,22 @@ export default function ScratchGameTutorial() {
           <div style={{ marginBottom: '1.5rem' }}>
        {step.image && (
   <div style={styles.imageWrapper}>
+    {step.image && (
+  <div style={{ marginBottom: '1.5rem' }}>
     <img
       src={`${import.meta.env.BASE_URL}${step.image}`}
       alt={step.title}
-      style={styles.image}
+      style={{
+        width: "100%",
+        height: "auto",
+        borderRadius: "16px",
+        border: "2px solid #90caf9",
+        display: "block",
+        maxWidth: "100%"
+      }}
     />
+  </div>
+)}
   </div>
 )}
           </div>
