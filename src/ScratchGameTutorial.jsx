@@ -28,7 +28,7 @@ const steps = [
   },
   {
     title: "Step 3: Understand the Car Sprite",
-    description: "Look at the code blocks in the car sprite. Try to understand how the car moves using arrow keys.",
+    description: "Look at the code blocks in the car sprite. I gave you reset code of the car sprite.Try to understand that you have to code to make the car move by arrow keys and what would happen if the car touches the obstacle or the road.",
     image: "images/step3.png"
   },
   {
