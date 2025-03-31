@@ -1,9 +1,14 @@
 import { useState } from "react";
 
 const steps = [
-  {
+  { 
     title: "Week 4 - Driving Car Game",
     description: "Welcome to today's Scratch lesson! We're going to build a fun driving game together. Get ready!",
+    image: "images/first.png"
+  },
+  {
+    title: "Key programming concepts",
+    description: "Today, we'll cover the following key programming concepts: Forever loop, if touching, and more.",
     image: "images/title-page.png"
   },
   {
