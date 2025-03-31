@@ -9,18 +9,17 @@ const steps = [
   },
   {
     title: "Seating Chart",
-    description: "Please check your seat and make sure you're in the right place. We'll start soon!",
+    description: "Please check your seat and make sure you're in the right place. We'll start soon! Password is 'a1234a'",
     image: "images/seating-chart.png"
   },
   {
     title: "Step 1: Open Scratch",
-    description: "Go to the Scratch website (https://scratch.mit.edu) and click 'Create' to start a new project.",
+    description: "Please share the start file I providedat the studio Week4.",
     image: "images/step1.png"
   },
   {
     title: "Step 2: Upload Project Assets",
-    description: "All sprites and backdrops are provided. Click the 'File' menu, choose 'Load from your computer', and upload the provided .sb3 file.",
-    image: "images/step2.png"
+    description: "All sprites and backdrops are provided. Today's backdrop is 'white road' and two sprites are 'car' and 'obstacle'." 
   },
   {
     title: "Step 3: Understand the Car Sprite",
@@ -44,7 +43,7 @@ const steps = [
   },
   {
     title: "Step 7: Test Your Game",
-    description: "Click the green flag and test your driving game. Make sure the car moves, avoids obstacles, and the backdrops switch properly.",
+    description: "Click the green flag and test your driving game. Make sure the car moves, avoids obstacles, and the backdrops switch properly. Then please upload to the studio Week4.",
     image: "images/step7.png"
   }
 ];
