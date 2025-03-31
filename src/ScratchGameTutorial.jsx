@@ -62,19 +62,15 @@ export default function ScratchGameTutorial() {
         <p style={styles.description}>{step.description}</p>
         {step.image && (
           <div style={{ marginBottom: '1.5rem' }}>
-            <img
-  src={`${import.meta.env.BASE_URL}${step.image}`}
-  alt={step.title}
-  style={{
-    width: "100%",
-    maxHeight: "300px",
-    objectFit: "contain",
-    borderRadius: "16px",
-    border: "2px solid #90caf9",
-    display: "block",
-    margin: "0 auto"
-  }}
-/>
+       {step.image && (
+  <div style={styles.imageWrapper}>
+    <img
+      src={`${import.meta.env.BASE_URL}${step.image}`}
+      alt={step.title}
+      style={styles.image}
+    />
+  </div>
+)}
           </div>
         )}
         <div style={styles.buttonRow}>
@@ -157,5 +153,19 @@ const styles = {
   disabledButton: {
     backgroundColor: "#bbdefb",
     cursor: "not-allowed"
+  },
+  imageWrapper: {
+    width: "100%",
+    maxHeight: "300px",
+    overflow: "hidden",
+    borderRadius: "16px",
+    border: "2px solid #90caf9",
+    marginBottom: "1.5rem"
+  },
+  image: {
+    width: "100%",
+    height: "100%",
+    objectFit: "contain",
+    display: "block"
   }
 };
