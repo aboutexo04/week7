@@ -18,7 +18,7 @@ const steps = [
   },
   {
     title: "Step 1: Open Scratch",
-    description: "Please share the start file I provided at the studio Week4.",
+    description: "Please share the start file I provided at the studio Week4. My Stuff -> My Studio -> Week4 -> Start File",
     image: "images/step1.png"
   },
   {
