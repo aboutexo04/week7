@@ -65,6 +65,15 @@ export default function ScratchGameTutorial() {
             <img
   src={`${import.meta.env.BASE_URL}${step.image}`}
   alt={step.title}
+  style={{
+    width: "100%",
+    maxHeight: "300px",
+    objectFit: "contain",
+    borderRadius: "16px",
+    border: "2px solid #90caf9",
+    display: "block",
+    margin: "0 auto"
+  }}
 />
           </div>
         )}
