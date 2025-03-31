@@ -18,7 +18,7 @@ const steps = [
     image: "images/step1.png"
   },
   {
-    title: "Step 2: Upload Project Assets",
+    title: "Step 2: Check the Assets",
     description: "All sprites and backdrops are provided. Today's backdrop is 'white road' and two sprites are 'car' and 'obstacle'." 
   },
   {
@@ -68,15 +68,21 @@ export default function ScratchGameTutorial() {
   <div style={{ marginBottom: '1.5rem' }}>
    {step.image && (
   <div style={{ marginBottom: '1.5rem' }}>
+    {step.image && (
+  <div style={{ marginBottom: '1.5rem' }}>
     <img
       src={`${import.meta.env.BASE_URL}${step.image}`}
       alt={step.title}
       style={{
         width: "100%",
+        height: "auto",
+        display: "block",
         borderRadius: "16px",
         border: "2px solid #90caf9"
       }}
     />
+  </div>
+)}
   </div>
 )}
   </div>
