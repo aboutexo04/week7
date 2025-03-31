@@ -5,47 +5,47 @@ const steps = [
   {
     title: "Week 4 - Driving Car Game",
     description: "Welcome to today's Scratch lesson! We're going to build a fun driving game together. Get ready!",
-    image: "/images/title-page.png"
+    image: "/Week4_Scratch/images/title-page.png"
   },
   {
     title: "Seating Chart",
     description: "Please check your seat and make sure you're in the right place. We'll start soon!",
-    image: "/images/seating-chart.png"
+    image: "/Week4_Scratch/images/seating-chart.png"
   },
   {
     title: "Step 1: Open Scratch",
     description: "Go to the Scratch website (https://scratch.mit.edu) and click 'Create' to start a new project.",
-    image: "/images/step1.png"
+    image: "/Week4_Scratch/images/step1.png"
   },
   {
     title: "Step 2: Upload Project Assets",
     description: "All sprites and backdrops are provided. Click the 'File' menu, choose 'Load from your computer', and upload the provided .sb3 file.",
-    image: "/images/step2.png"
+    image: "/Week4_Scratch/images/step2.png"
   },
   {
     title: "Step 3: Understand the Car Sprite",
     description: "Look at the code blocks in the car sprite. Try to understand how the car moves using arrow keys.",
-    image: "/images/step3.png"
+    image: "/Week4_Scratch/images/step3.png"
   },
   {
     title: "Step 4: Explore the Obstacle Sprite",
     description: "Click on the 'Obstacle' sprite. Observe how it interacts with the car.",
-    image: "/images/step4.png"
+    image: "/Week4_Scratch/images/step4.png"
   },
   {
     title: "Step 5: Detect Collision",
     description: "Check how the car sprite uses 'if touching Obstacle' blocks to detect collisions.",
-    image: "/images/step5.png"
+    image: "/Week4_Scratch/images/step5.png"
   },
   {
     title: "Step 6: Explore Backdrops",
     description: "Look at the different backdrops for each level and find the code that switches them.",
-    image: "/images/step6.png"
+    image: "/Week4_Scratch/images/step6.png"
   },
   {
     title: "Step 7: Test Your Game",
     description: "Click the green flag and test your driving game. Make sure the car moves, avoids obstacles, and the backdrops switch properly.",
-    image: "/images/step7.png"
+    image: "/Week4_Scratch/images/step7.png"
   }
 ];
 
