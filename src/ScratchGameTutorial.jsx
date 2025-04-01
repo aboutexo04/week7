@@ -27,14 +27,29 @@ const steps = [
     image: "images/step2.png"
   },
   {
-    title: "Step 3: Understand the Car Sprite",
+    title: "Step 3: Explore the Obstacle Sprite",
+    description: "Click on the 'Obstacle' sprite. Observe how it interacts with the car.",
+    image: "images/step4.png" 
+  },
+  {
+    title: "Step 4: Understand the Car Sprite",
     description: "Look at the code blocks in the car sprite. I gave you reset code of the car sprite.Try to understand that you have to code to make the car move by arrow keys and what would happen if the car touches the obstacle or the road.",
     image: "images/step3.png"
   },
   {
-    title: "Step 4: Explore the Obstacle Sprite",
-    description: "Click on the 'Obstacle' sprite. Observe how it interacts with the car.",
-    image: "images/step4.png"
+    title: "Step 4-1: Basic structure of the Car Sprite",
+    description: "Always start with basic structure of the sprite.",
+    image: "images/step4-1.png"
+  },
+  {
+    title: "Step 4-2: Make the car move by arrow keys",
+    description: "Make the car move by arrow keys. You can use 'if key pressed' blocks to make the car move by arrow keys.",
+    image: "images/step4-2.png"
+  },
+  {
+    title: "Step 4-3: Detect collision",
+    description: "Detect collision between the car and the obstacle. You can use 'if touching' blocks to detect collision.",
+    image: "images/step4-3.png"
   },
   {
     title: "Step 5: Driving car & Detect Collision",
