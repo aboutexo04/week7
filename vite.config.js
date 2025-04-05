@@ -6,7 +6,7 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     rollupOptions: {
-      external: ['/week5_scratch/assets/index-ad4531cb.js']
+      external: ['/week5_scratch/assets/index-ef820beb.js']
     }
   },
   plugins: [react()]
