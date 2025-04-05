@@ -2,23 +2,23 @@ import { useState } from "react";
 
 const steps = [
   { 
-    title: "Week 6 - Zero Gravity Baseball Game",
-    description: "Today, we'll make a zero gravity baseball game!",
+    title: "Week 7 - Pingpong Star Catch Game",
+    description: "Today, we'll make a pingpong star catch game!",
     image: "/images/first.png"
   },
   {
     title: "Key programming concepts",
-    description: "Today, we'll cover forever loop, if condition, repeat until, variables, and OR operator.",
+    description: "Today, we'll cover nested loops, clone, and OR operator.",
     image: "/images/title-page.png"
   },
   {
     title: "Seating Chart",
-    description: "Please check your seat and make sure you're in the right place. Password is 'a1234a'",
+    description: "Please check your seat and make sure you're in the right place.",
     image: "/images/seating-chart.png"
   },
   {
-    title: "Step 1: Open Scratch and remix today's start project(week6)",
-    description: "Please share the start file I provided at the studio Week6. My Stuff -> My Studio -> Week4 -> Start File",
+    title: "Step 1: Open Scratch and remix today's start project(week7)",
+    description: "Please share the start file I provided at the studio Week7. My Stuff -> My Studio -> Week7 -> Start File",
     image: "/images/step1.png"
   },
   {
@@ -28,17 +28,17 @@ const steps = [
   },
   {
     title: "Step 3: Let's start coding with the ball sprite",
-    description: "The ball starts from the pitcher's position and hides until the space key is pressed. Then it shows, moves forward step by step until it touches the catcher or the edge, and hides again. If it touches the catcher, a sound plays and the score increases by 1.",
+    description: "The Ball waits until the space key is pressed, then starts moving in a random direction. It keeps moving and bounces off the screen edges. When it touches the Paddle or a Star, it bounces back and plays a 'Boing' sound.",
     image: "/images/ball.png" 
   },
   {
-    title: "Step 4: Let's code for the pitcher sprite",
-    description: "The pitcher moves up and down slightly and continuously to create a wavy motion. When the ball is thrown, the pitcher switches through different costumes to show a throwing animation. This animation is triggered by a broadcast message called 'throw'",
-    image: "/images/pitcher.png"
+    title: "Step 4: Let's code for the star sprite",
+    description:"The Star sprite starts hidden and creates 30 colorful clones arranged in a grid. Each clone appears with a random color effect and waits to be touched by the Ball. When the Ball touches a Star, the Star disappears and the score increases by 1.",
+    image: "/images/star-1.png"
   },
   {
-    title: "Step 5: Test your game and share to the studio week6",
-    description: "Dont forget to add your project to the studio week6.",
+    title: "Step 5: Test your game and share to the studio week7",
+    description: "Dont forget to add your project to the studio week7.",
     image: "/images/step5.png"
   },
   

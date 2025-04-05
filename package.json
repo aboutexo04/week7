@@ -1,14 +1,14 @@
 {
   "name": "scratch-tutorial-verified",
   "version": "1.0.0",
-  "homepage": "https://aboutexo04.github.io/week6_scratch",
+  "homepage": "https://aboutexo04.github.io/week7",
   "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -b gh-pages"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.2.0",
