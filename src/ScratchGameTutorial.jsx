@@ -8,7 +8,7 @@ const steps = [
   },
   {
     title: "Key programming concepts",
-    description: "Today, we'll cover the following key programming concepts: Forever loop, if condition, variables, and OR operator.",
+    description: "Today, we'll cover forever loop, if condition, variables, and OR operator.",
     image: "images/title-page.png"
   },
   {
