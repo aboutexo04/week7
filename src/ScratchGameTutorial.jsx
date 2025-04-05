@@ -8,7 +8,7 @@ const steps = [
   },
   {
     title: "Key programming concepts",
-    description: "Today, we'll cover the following key programming concepts: Forever loop, if condition, variable, and OR operatorimage.png.",
+    description: "Today, we'll cover the following key programming concepts: Forever loop, if condition, variables, and OR operator.",
     image: "images/title-page.png"
   },
   {
@@ -33,9 +33,15 @@ const steps = [
   },
   {
     title: "Step 4: Let's complete the Apple sprite",
-    description: "Look at the code blocks in the car sprite. I gave you reset code of the car sprite.Try to understand that you have to code to make the car move by arrow keys and what would happen if the car touches the obstacle or the road.",
+    description: "Let's complete the Apple sprite.",
     image: "images/step4.png"
   },
+  {
+    title: "Step 5: Test your game and share to the studio week5",
+    description: "Dont forget to add your project to the studio week5.",
+    image: "images/step5.png"
+  },
+  
 ];
 
 export default function ScratchGameTutorial() {
