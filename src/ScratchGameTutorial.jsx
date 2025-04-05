@@ -2,44 +2,44 @@ import { useState } from "react";
 
 const steps = [
   { 
-    title: "Week 5 - Fast Fingers Game",
-    description: "Today, we'll see who has the fastest reflexes!",
+    title: "Week 6 - Zero Gravity Baseball Game",
+    description: "Today, we'll make a zero gravity baseball game!",
     image: "/images/first.png"
   },
   {
     title: "Key programming concepts",
-    description: "Today, we'll cover forever loop, if condition, variables, and OR operator.",
+    description: "Today, we'll cover forever loop, if condition, repeat until, variables, and OR operator.",
     image: "/images/title-page.png"
   },
   {
     title: "Seating Chart",
     description: "Please check your seat and make sure you're in the right place. Password is 'a1234a'",
-    image: "/images/seating-chart-week5.png"
+    image: "/images/seating-chart.png"
   },
   {
-    title: "Step 1: Open Scratch and remix today's start project(week5)",
-    description: "Please share the start file I provided at the studio Week4. My Stuff -> My Studio -> Week4 -> Start File",
-    image: "images/step1.png"
+    title: "Step 1: Open Scratch and remix today's start project(week6)",
+    description: "Please share the start file I provided at the studio Week6. My Stuff -> My Studio -> Week4 -> Start File",
+    image: "/images/step1.png"
   },
   {
     title: "Step 2: Check the rule of the game",
     description: "Please check the rule of the game.",
-    image: "images/step2.png"
+    image: "/images/step2.png"
   },
   {
-    title: "Step 3: Let's start coding with the ending block",
-    description: "Lets make ending block in Apple sprite to finish the game. ",
-    image: "images/step3.png" 
+    title: "Step 3: Let's start coding with the ball sprite",
+    description: "The ball starts from the pitcher's position and hides until the space key is pressed. Then it shows, moves forward step by step until it touches the catcher or the edge, and hides again. If it touches the catcher, a sound plays and the score increases by 1.",
+    image: "/images/ball.png" 
   },
   {
-    title: "Step 4: Let's complete the Apple sprite",
-    description: "Let's complete the Apple sprite.",
-    image: "images/step4.png"
+    title: "Step 4: Let's code for the pitcher sprite",
+    description: "The pitcher moves up and down slightly and continuously to create a wavy motion. When the ball is thrown, the pitcher switches through different costumes to show a throwing animation. This animation is triggered by a broadcast message called 'throw'",
+    image: "/images/pitcher.png"
   },
   {
-    title: "Step 5: Test your game and share to the studio week5",
-    description: "Dont forget to add your project to the studio week5.",
-    image: "images/step5.png"
+    title: "Step 5: Test your game and share to the studio week6",
+    description: "Dont forget to add your project to the studio week6.",
+    image: "/images/step5.png"
   },
   
 ];
