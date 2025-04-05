@@ -3,18 +3,18 @@ import { useState } from "react";
 const steps = [
   { 
     title: "Week 5 - Fast Fingers Game",
-    description: "Today, we’ll see who has the fastest reflexes!",
-    image: "images/first.png"
+    description: "Today, we'll see who has the fastest reflexes!",
+    image: "/images/first.png"
   },
   {
     title: "Key programming concepts",
     description: "Today, we'll cover forever loop, if condition, variables, and OR operator.",
-    image: "images/title-page.png"
+    image: "/images/title-page.png"
   },
   {
     title: "Seating Chart",
     description: "Please check your seat and make sure you're in the right place. Password is 'a1234a'",
-    image: "images/seating-chart-week5.png"
+    image: "/images/seating-chart-week5.png"
   },
   {
     title: "Step 1: Open Scratch and remix today's start project(week5)",

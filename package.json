@@ -1,7 +1,7 @@
 {
   "name": "scratch-tutorial-verified",
   "version": "1.0.0",
-  "homepage": "https://aboutexo04.github.io/week5_scratch",
+  "homepage": "https://aboutexo04.github.io/week5_scratch_1",
   "private": true,
   "scripts": {
     "dev": "vite",
